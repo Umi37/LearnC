@@ -5,9 +5,25 @@ C언어는 절차지향 기반의 자료구조 학습을, C++은 객체지향과
 
 ---
 
+<<<<<<< HEAD
 ## 📅 학습 시작일
 
 - 2025년 4월 17일
+=======
+## 📅 학습 log
+
+- [Day1] 2025년 4월 17일 : 학습 시작일
+    - 학습을 위한 디렉토리 초기 세팅
+    - C++ basic : 변수, 입출력
+    - C와 C++ 의 입출력 방식 차이에 대한 이해 : 메모리 관리, 메모리 접근 방식, 문법적 측면
+    - 스택과 힙의 내부 작동 방식 및 특성
+
+- [Day2] 2025년 4월 18일
+    - C++ basic : 제어문 (if, for, while)
+    - C++ function_1 : 함수 + 참조자
+    - C++ function_1 : 함수 오버로딩
+
+>>>>>>> 1dffc2b ([Day2] Docs: rand() 함수 및 선형 합동 생성기 (LCG) - 의사 난수 생성 알고리즘에 대한 이해)
 
 ---
 
@@ -15,6 +31,10 @@ C언어는 절차지향 기반의 자료구조 학습을, C++은 객체지향과
 
 | 주제 | 설명 | 예제 |
 |------|------|------|
+<<<<<<< HEAD
+=======
+| 1️⃣ 기본문법 (basics) | 변수, 입출력, 제어문, 흐름제어, C표준 라이브러리 | [`C/basics`](./C/basics) |
+>>>>>>> 1dffc2b ([Day2] Docs: rand() 함수 및 선형 합동 생성기 (LCG) - 의사 난수 생성 알고리즘에 대한 이해)
 | 1️⃣ 스택 (Stack) | 배열 기반 스택 구현 | [`C/stack/stack.c`](./C/stack/stack.c) |
 | 2️⃣ 큐 (Queue) | 배열 기반 큐 구현 | [`C/queue/queue.c`](./C/queue/queue.c) |
 | 3️⃣ 연결 리스트 | 단일 연결 리스트 구현 | [`C/linked_list/singly_list.c`](./C/linked_list/singly_list.c) |
@@ -25,8 +45,13 @@ C언어는 절차지향 기반의 자료구조 학습을, C++은 객체지향과
 
 | 주제 | 설명 | 예제 |
 |------|------|------|
+<<<<<<< HEAD
 | 1️⃣ 기본 문법 (basic) | 변수, 입출력, 제어문 | [`CPP/basics/hello.cpp`](./CPP/basics/hello.cpp) |
 | 2️⃣ 함수와 참조 (fuction) | 함수 정의, call by reference | [`CPP/function/ref_example.cpp`](./CPP/function/ref_example.cpp) |
+=======
+| 1️⃣ 기본 문법 (basics) | 변수, 입출력, 제어문 | [`CPP/basics`](./CPP/basics) |
+| 2️⃣ 함수와 참조 (fuction) | 함수 정의, call by reference | [`CPP/function`](./CPP/function) |
+>>>>>>> 1dffc2b ([Day2] Docs: rand() 함수 및 선형 합동 생성기 (LCG) - 의사 난수 생성 알고리즘에 대한 이해)
 | 3️⃣ 클래스와 객체 (opp) | 클래스 정의, 생성자/소멸자 | [`CPP/oop/class_intro.cpp`](./CPP/oop/class_intro.cpp) |
 | 4️⃣ 상속 (opp) | `public` 상속, `virtual` 함수 | [`CPP/oop/inheritance.cpp`](./CPP/oop/inheritance.cpp) |
 | 5️⃣ 다형성 (opp) | 오버라이딩, 추상 클래스 | [`CPP/oop/polymorphism.cpp`](./CPP/oop/polymorphism.cpp) |
@@ -79,14 +104,26 @@ C언어는 절차지향 기반의 자료구조 학습을, C++은 객체지향과
 
 ```bash
 LearnC/
+<<<<<<< HEAD
 ├── C/                   # 절차지향 언어 C 학습 (자료구조 중심)
+=======
+├── c_language/                   # 절차지향 언어 C 학습 (자료구조 중심)
+│   ├── basics/          # 변수, 제어문, 입출력 등 기초 문법
+>>>>>>> 1dffc2b ([Day2] Docs: rand() 함수 및 선형 합동 생성기 (LCG) - 의사 난수 생성 알고리즘에 대한 이해)
 │   ├── stack/           # 스택 구현 및 응용
 │   ├── queue/           # 큐 구현 및 응용
 │   ├── linked_list/     # 연결리스트 구현
 │   ├── docs/            # 이론 정리 마크다운
+<<<<<<< HEAD
 │   └── README.md
 │
 ├── CPP/                 # 객체지향 언어 C++ 학습
+=======
+│   │    └── stdlib/    # 표준 라이브러리
+│   └── README.md
+│
+├── cpp_language/                 # 객체지향 언어 C++ 학습
+>>>>>>> 1dffc2b ([Day2] Docs: rand() 함수 및 선형 합동 생성기 (LCG) - 의사 난수 생성 알고리즘에 대한 이해)
 │   ├── basics/          # 변수, 제어문, 입출력 등 기초 문법
 │   ├── function/        # 함수, 참조자 등 함수 관련 문법
 │   ├── oop/             # 클래스, 상속, 다형성 등 객체지향
