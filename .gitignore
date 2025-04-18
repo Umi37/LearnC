@@ -7,7 +7,6 @@ a.out
 hello
 main
 run
-test
 
 # 오브젝트 파일
 *.o
