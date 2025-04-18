@@ -28,10 +28,10 @@ C언어는 절차지향 기반의 자료구조 학습을, C++은 객체지향과
 
 | 주제 | 설명 | 예제 |
 |------|------|------|
-| 1️⃣ 기본문법 (basics) | 변수, 입출력, 제어문, 흐름제어, C표준 라이브러리 | [`C/basics`](./C/basics) |
-| 2️⃣ 스택 (Stack) | 배열 기반 스택 구현 | [`C/stack/stack.c`](./C/stack/stack.c) |
-| 3️⃣ 큐 (Queue) | 배열 기반 큐 구현 | [`C/queue/queue.c`](./C/queue/queue.c) |
-| 4️⃣ 연결 리스트 | 단일 연결 리스트 구현 | [`C/linked_list/singly_list.c`](./C/linked_list/singly_list.c) |
+| 1️⃣ 기본문법 (basics) | 변수, 입출력, 제어문, 흐름제어, C표준 라이브러리 | [`c_language/basics`](./c_language/basics) |
+| 2️⃣ 스택 (Stack) | 배열 기반 스택 구현 | [`c_language/stack/stack.c`](./c_language/stack/stack.c) |
+| 3️⃣ 큐 (Queue) | 배열 기반 큐 구현 | [`c_language/queue/queue.c`](./c_language/queue/queue.c) |
+| 4️⃣ 연결 리스트 | 단일 연결 리스트 구현 | [`c_language/linked_list/singly_list.c`](./c_language/linked_list/singly_list.c) |
 
 ---
 
@@ -39,16 +39,16 @@ C언어는 절차지향 기반의 자료구조 학습을, C++은 객체지향과
 
 | 주제 | 설명 | 예제 |
 |------|------|------|
-| 1️⃣ 기본 문법 (basic) | 변수, 입출력, 제어문 | [`CPP/basics/hello.cpp`](./CPP/basics/hello.cpp) |
-| 2️⃣ 함수와 참조 (fuction) | 함수 정의, call by reference | [`CPP/function/ref_example.cpp`](./CPP/function/ref_example.cpp) |
-| 3️⃣ 기본 문법 (basics) | 변수, 입출력, 제어문 | [`CPP/basics`](./CPP/basics) |
-| 4️⃣ 함수와 참조 (fuction) | 함수 정의, call by reference | [`CPP/function`](./CPP/function) |
-| 5️⃣ 클래스와 객체 (opp) | 클래스 정의, 생성자/소멸자 | [`CPP/oop/class_intro.cpp`](./CPP/oop/class_intro.cpp) |
-| 6️⃣ 상속 (opp) | `public` 상속, `virtual` 함수 | [`CPP/oop/inheritance.cpp`](./CPP/oop/inheritance.cpp) |
-| 7️⃣ 다형성 (opp) | 오버라이딩, 추상 클래스 | [`CPP/oop/polymorphism.cpp`](./CPP/oop/polymorphism.cpp) |
-| 8️⃣ 템플릿 (template) | 함수 템플릿, 클래스 템플릿 | [`CPP/template/max_func.cpp`](./CPP/template/max_func.cpp) |
-| 9️⃣ 예외 처리 (exception) | `try`, `catch`, `throw` | [`CPP/exception/trycatch.cpp`](./CPP/exception/trycatch.cpp) |
-| 🔟 STL | `vector`, `map`, `set`, `algorithm` | [`CPP/stl/vector_sort.cpp`](./CPP/stl/vector_sort.cpp) |
+| 1️⃣ 기본 문법 (basic) | 변수, 입출력, 제어문 | [`cpp_language/basics/hello.cpp_language`](./cpp_language/basics/hello.cpp_language) |
+| 2️⃣ 함수와 참조 (fuction) | 함수 정의, call by reference | [`cpp_language/function/ref_example.cpp_language`](./cpp_language/function/ref_example.cpp_language) |
+| 3️⃣ 기본 문법 (basics) | 변수, 입출력, 제어문 | [`cpp_language/basics`](./cpp_language/basics) |
+| 4️⃣ 함수와 참조 (fuction) | 함수 정의, call by reference | [`cpp_language/function`](./cpp_language/function) |
+| 5️⃣ 클래스와 객체 (opp) | 클래스 정의, 생성자/소멸자 | [`cpp_language/oop/class_intro.cpp_language`](./cpp_language/oop/class_intro.cpp_language) |
+| 6️⃣ 상속 (opp) | `public` 상속, `virtual` 함수 | [`cpp_language/oop/inheritance.cpp_language`](./cpp_language/oop/inheritance.cpp_language) |
+| 7️⃣ 다형성 (opp) | 오버라이딩, 추상 클래스 | [`cpp_language/oop/polymorphism.cpp_language`](./cpp_language/oop/polymorphism.cpp_language) |
+| 8️⃣ 템플릿 (template) | 함수 템플릿, 클래스 템플릿 | [`cpp_language/template/max_func.cpp_language`](./cpp_language/template/max_func.cpp_language) |
+| 9️⃣ 예외 처리 (exception) | `try`, `catch`, `throw` | [`cpp_language/exception/trycatch.cpp_language`](./cpp_language/exception/trycatch.cpp_language) |
+| 🔟 STL | `vector`, `map`, `set`, `algorithm` | [`cpp_language/stl/vector_sort.cpp_language`](./cpp_language/stl/vector_sort.cpp_language) |
 
 ---
 
@@ -62,9 +62,9 @@ C언어는 절차지향 기반의 자료구조 학습을, C++은 객체지향과
 - `C/docs/linked_list.md`
 
 ### 📄 C++ 노트
-- `CPP/docs/01_기본문법.md`
-- `CPP/docs/02_객체지향.md`
-- `CPP/docs/03_STL_활용.md`
+- `cpp_language/docs/01_기본문법.md`
+- `cpp_language/docs/02_객체지향.md`
+- `cpp_language/docs/03_STL_활용.md`
 
 ---
 
@@ -104,7 +104,7 @@ LearnC/
 │   │    └── stdlib/    # 표준 라이브러리
 │   └── README.md
 │
-├── cpp_language/                 # 객체지향 언어 C++ 학습
+├── cpp_language_language/                 # 객체지향 언어 C++ 학습
 │   ├── basics/          # 변수, 제어문, 입출력 등 기초 문법
 │   ├── function/        # 함수, 참조자 등 함수 관련 문법
 │   ├── oop/             # 클래스, 상속, 다형성 등 객체지향
